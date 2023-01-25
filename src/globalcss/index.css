@@ -24,3 +24,7 @@
 .border__radius{
     border-radius: 10px;
 }
+
+.AutoComplete{
+    width: 100% !important;
+}
