@@ -1,0 +1,46 @@
+.cd__container {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 10px;
+  padding: 20px;
+  display: flex;
+}
+
+.cd__rightSide {
+  margin-left: 20px;
+}
+
+.cd__title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #2dd071;
+}
+
+.cd__description {
+  font-weight: 600;
+  font-size: 18px;
+
+  color: #063970;
+}
+
+.cd__shortDescription {
+  font-size: 15px;
+  align-items: center;
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.cd__transactionBalance {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.cd__balance {
+  font-size: 13px;
+  /* text-transform: uppercase; */
+  margin-right: 10px;
+}
+
+.cd__amount {
+  font-weight: 600;
+}
