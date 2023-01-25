@@ -5,15 +5,15 @@ import Autocomplete from '@mui/material/Autocomplete';
 export default function Auto_Complete() {
   return (
     <>
-    <Autocomplete
-      className='AutoComplete'
-      disablePortal
-      sx={{ '& fieldset': { borderRadius: 2, borderColor: '#E0E0E0' }}}
-      size='small'
-      id="combo-box-demo"
-      options={top100Films}
-      renderInput={(params) => <TextField {...params} label="Movie" />}
-    />
+        <Autocomplete
+            className='AutoComplete'
+            disablePortal
+            sx={{ '& fieldset': { borderRadius: 2, borderColor: '#E0E0E0' }}}
+            size='small'
+            id="combo-box-demo"
+            options={top100Films}
+            renderInput={(params) => <TextField {...params} label="Movie" />}
+        />
     </>
   );
 }

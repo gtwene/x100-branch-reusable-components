@@ -10,9 +10,9 @@ function Phone_number() {
   return (
     <div className="mt-2">
     <label className="label mb-2">Enter phone number</label>
-    <div>
+    <div className=''>
     <PhoneInput
-    inputStyle={{width:"385px", height:'45px', borderRadius:'10px'}}
+      inputStyle={{width:"385px", height:'42px', borderRadius:'10px', borderLeft:'10px'}}
       placeholder="Enter phone number"
       country="gh"
       value={value}
