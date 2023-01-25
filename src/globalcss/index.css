@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .Input{
+        @apply bg-white border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+    }
+
+    .Auto__Input{
+        @apply bg-white text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500
+    }
+
+    .button{
+        @apply p-1 mt-2 w-[50%] text-white shadow-sm rounded-xl bg-gradient-to-r from-green-500 to-green-400 hover:from-green-200 hover:to-yellow-100 hover:text-black;
+    }
+
+    .label{
+        @apply block text-gray-400 font-bold md:text-left mb-1 w-full md:mb-0 pr-4
+    }
+
+}
+
+.border__radius{
+    border-radius: 10px;
+}
