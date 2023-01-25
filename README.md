@@ -2,21 +2,23 @@
 
 # Components
 * Label
-Button 
-Text Field { type, name, value }
-Number Field
-Amount Field
-Phone Number
-LOV's
-Email Field
-Date Field
-Upload
-radio
-select
-progress (stepper)
+* Button 
+* Text Field { type, name, value }
+* Number Field
+* Amount Field
+* Phone Number
+* LOV's
+* Email Field
+* Date Field
+* Upload
+* radio
+* select
+* progress (stepper)
 
 
 # Tabs
+props (
 string 
 active 
 icon
+)
