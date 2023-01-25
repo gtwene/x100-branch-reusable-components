@@ -1,0 +1,42 @@
+.receipt {
+  display: grid;
+  place-items: center;
+  height: 100vh;
+}
+
+.receipt__container {
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  padding: 20px;
+  border-radius: 10px;
+  width: 380px;
+}
+
+.receipt__profile {
+  height: 40px;
+  border-radius: 50px;
+}
+
+.receipt__title {
+  font-size: 17px;
+  font-weight: 700;
+  color: #063970;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.receipt__innerCard {
+  font-size: 14px;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.receipt__transaction {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #063970;
+  font-size: 13px;
+}
