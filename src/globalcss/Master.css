@@ -1,0 +1,14 @@
+.label {
+  text-align: left;
+  font-size: 13px;
+  width: 120px;
+  margin-left: 2px;
+}
+
+.required_label {
+  margin-right: 27px;
+  text-align: left;
+  font-size: 13px;
+  font-weight:640;
+  margin-left: 2px;
+}
