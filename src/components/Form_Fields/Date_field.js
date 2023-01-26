@@ -26,9 +26,11 @@ const Date_field = () => {
                primaryColor={"fuchsia"}
                value={value} 
                showFooter={true} 
+               displayFormat={"DD/MM/YYYY"}
                onChange={handleValueChange} 
                showShortcuts={true} 
                useRange={false}
+               asSingle={true}
                /> 
             
         </div>
