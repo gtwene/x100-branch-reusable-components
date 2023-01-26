@@ -1,6 +1,7 @@
 import React, {useState} from "react";
 import Datepicker from "react-tailwindcss-datepicker";
 
+
 const Date_field = () => {
     const [value, setValue] = useState({
         startDate: new Date(),
@@ -27,6 +28,7 @@ const Date_field = () => {
                showFooter={true} 
                onChange={handleValueChange} 
                showShortcuts={true} 
+               useRange={false}
                /> 
             
         </div>

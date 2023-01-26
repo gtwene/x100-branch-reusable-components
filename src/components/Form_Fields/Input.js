@@ -4,6 +4,7 @@ import Input_component from '../Input_component'
 import Amount_field from './Amount_field'
 import Auto_Complete from './Auto_Complete'
 import Date_field from './Date_field'
+import Date_Picker from './Date_Picker'
 import Email from './Email'
 import Label from './Label'
 import Phone_number from './Phone_number'
@@ -25,6 +26,7 @@ const Input = () => {
                 <Phone_number />
                 {/* <Upload_DragnDrop /> */}
                 <Button />
+                <Date_Picker />
             </form>
         </div>
 
