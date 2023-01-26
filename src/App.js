@@ -1,5 +1,6 @@
 import Biodata from "./components/Biodata";
 
+
 function App() {
   return (
     <div className="App">
